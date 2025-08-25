@@ -7,7 +7,7 @@ const errorHandler = require('./middlewares/errorHandler'); // 경로 수정
 const app = express();
 
 app.use(cors({
-  origin: process.env.FRONTEND_URL || 'http://localhost:3000',
+  origin: process.env.FRONTEND_URL || 'https://newone-kappa-wheat.vercel.app/',
   credentials: true
 }));
 
